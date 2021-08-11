@@ -9,10 +9,16 @@ import SwiftUI
 
 struct MomentsList: View {
   var viewModel = MomentViewModel()
+  var imageLoader = ImageLoader()
+
 
   var body: some View {
-    List(viewModel.moments, id: \.id) { moment in
-      MomentRow(moment: moment)
+    List {
+      MomentHeader(user: viewModel.user)
+        .listRowInsets(EdgeInsets())
+      ForEach(viewModel.validMoments) { moment in
+        MomentRow(moment: moment)
+      }
     }
   }
 }
