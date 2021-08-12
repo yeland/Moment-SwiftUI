@@ -14,4 +14,6 @@ final class MomentViewModel: ObservableObject {
   var validMoments: [Moment] {
     return moments.filter { $0.sender != nil && ($0.images != nil || $0.content != nil) }
   }
+
+  
 }

@@ -11,7 +11,6 @@ struct MomentsList: View {
   var viewModel = MomentViewModel()
   var imageLoader = ImageLoader()
 
-
   var body: some View {
     List {
       MomentHeader(user: viewModel.user)
@@ -20,6 +19,7 @@ struct MomentsList: View {
         MomentRow(moment: moment)
       }
     }
+    .ignoresSafeArea()
   }
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F802654A26C4282D009CD8C7 /* PhotoGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F802654926C4282D009CD8C7 /* PhotoGridView.swift */; };
 		F854EDE126B83AE7001509CE /* momentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F854EDE026B83AE7001509CE /* momentApp.swift */; };
 		F854EDE326B83AE7001509CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F854EDE226B83AE7001509CE /* ContentView.swift */; };
 		F854EDE526B83AE8001509CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F854EDE426B83AE8001509CE /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F802654926C4282D009CD8C7 /* PhotoGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridView.swift; sourceTree = "<group>"; };
 		F854EDDD26B83AE7001509CE /* moment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F854EDE026B83AE7001509CE /* momentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = momentApp.swift; sourceTree = "<group>"; };
 		F854EDE226B83AE7001509CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				F854EE3B26BA942B001509CE /* MomentsList.swift */,
 				F854EE8E26BBE913001509CE /* MomentHeader.swift */,
 				F854EEA026C18A37001509CE /* ImageWithUrl.swift */,
+				F802654926C4282D009CD8C7 /* PhotoGridView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				F854EDE126B83AE7001509CE /* momentApp.swift in Sources */,
 				F854EE4B26BA99FC001509CE /* User.swift in Sources */,
 				F854EE2926BA8FA5001509CE /* ModelData.swift in Sources */,
+				F802654A26C4282D009CD8C7 /* PhotoGridView.swift in Sources */,
 				F854EE8F26BBE913001509CE /* MomentHeader.swift in Sources */,
 				F854EE5126BA9A8A001509CE /* MomentViewModel.swift in Sources */,
 				F854EEA126C18A37001509CE /* ImageWithUrl.swift in Sources */,

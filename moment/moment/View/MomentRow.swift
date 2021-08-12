@@ -21,7 +21,7 @@ struct MomentRow: View {
           .fontWeight(.medium)
           .padding(.bottom, 2)
         Text(moment.content ?? "")
-        Spacer()
+        PhotoGridView(photoGridData: moment.photoGridData)
       }
     }
   }
