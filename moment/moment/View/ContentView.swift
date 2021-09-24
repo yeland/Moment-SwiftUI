@@ -8,10 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+  init() {
+    UINavigationBar.appearance().backgroundColor = .gray
+  }
+
   var body: some View {
-    VStack {
-      MomentsList()
+    NavigationView {
+      VStack {
+        MomentsList()
+      }
+      .navigationBarTitle("Moment", displayMode: .inline)
     }
+    .navigationViewStyle(StackNavigationViewStyle())
     .edgesIgnoringSafeArea(.all)
   }
 }
