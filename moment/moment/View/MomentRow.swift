@@ -21,8 +21,12 @@ struct MomentRow: View {
           .fontWeight(.medium)
           .padding(.bottom, 2)
         Text(moment.content ?? "")
+          .fixedSize(horizontal: false, vertical: true)
         PhotoGridView(photoGridData: moment.photoGridData)
+        CommentsList(comments: moment.comments ?? [])
       }
     }
+    .padding(.horizontal)
+    .padding(.top)
   }
 }

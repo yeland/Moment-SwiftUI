@@ -15,11 +15,12 @@ struct MomentsList: View {
     List {
       MomentHeader(user: viewModel.user)
         .listRowInsets(EdgeInsets())
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+        .background(Color.white)
       ForEach(viewModel.validMoments) { moment in
         MomentRow(moment: moment)
       }
     }
-    .ignoresSafeArea()
   }
 }
 
